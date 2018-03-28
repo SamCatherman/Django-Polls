@@ -5,3 +5,17 @@ li a {
 body {
     background: white url('images/voting.png') no-repeat;
 }
+
+.poll-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+    height: auto; 
+    width: auto;
+}
+
+.poll-list {
+    float: right;
+    max-width: 50%;
+}
